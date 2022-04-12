@@ -4,7 +4,7 @@
 #
 Name     : pypi-locket
 Version  : 0.2.1
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/0c/09/c2b9f6ba4fe2aa4e7ca7bb2c2938adcf9731dd22f4ad570ff1188417a080/locket-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0c/09/c2b9f6ba4fe2aa4e7ca7bb2c2938adcf9731dd22f4ad570ff1188417a080/locket-0.2.1.tar.gz
 Summary  : File-based locks for Python for Linux and Windows
@@ -14,9 +14,6 @@ Requires: pypi-locket-license = %{version}-%{release}
 Requires: pypi-locket-python = %{version}-%{release}
 Requires: pypi-locket-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: locket
-Provides: locket-python
-Provides: locket-python3
 
 %description
 =========
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641453972
+export SOURCE_DATE_EPOCH=1649781393
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
