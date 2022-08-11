@@ -4,7 +4,7 @@
 #
 Name     : pypi-locket
 Version  : 1.0.0
-Release  : 32
+Release  : 33
 URL      : https://files.pythonhosted.org/packages/2f/83/97b29fe05cb6ae28d2dbd30b81e2e402a3eed5f460c26e9eaa5895ceacf5/locket-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2f/83/97b29fe05cb6ae28d2dbd30b81e2e402a3eed5f460c26e9eaa5895ceacf5/locket-1.0.0.tar.gz
 Summary  : File-based locks for Python on Linux and Windows
